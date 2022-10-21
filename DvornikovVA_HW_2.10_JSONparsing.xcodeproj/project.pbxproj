@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		D107BD63290302450002914A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107BD62290302450002914A /* AppDelegate.swift */; };
 		D107BD65290302450002914A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107BD64290302450002914A /* SceneDelegate.swift */; };
-		D107BD67290302450002914A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107BD66290302450002914A /* ViewController.swift */; };
 		D107BD6A290302450002914A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D107BD68290302450002914A /* Main.storyboard */; };
 		D107BD6C290302460002914A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D107BD6B290302460002914A /* Assets.xcassets */; };
 		D107BD6F290302460002914A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D107BD6D290302460002914A /* LaunchScreen.storyboard */; };
 		D107BD7A290302460002914A /* DvornikovVA_HW_2_10_JSONparsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107BD79290302460002914A /* DvornikovVA_HW_2_10_JSONparsingTests.swift */; };
 		D107BD84290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107BD83290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITests.swift */; };
 		D107BD86290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107BD85290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift */; };
+		D1E75D3229030329002A5EA7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D3129030329002A5EA7 /* MainViewController.swift */; };
+		D1E75D34290305B9002A5EA7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D33290305B9002A5EA7 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		D107BD5F290302450002914A /* DvornikovVA_HW_2.10_JSONparsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DvornikovVA_HW_2.10_JSONparsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D107BD62290302450002914A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D107BD64290302450002914A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D107BD66290302450002914A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D107BD69290302450002914A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D107BD6B290302460002914A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D107BD6E290302460002914A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		D107BD7F290302460002914A /* DvornikovVA_HW_2.10_JSONparsingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DvornikovVA_HW_2.10_JSONparsingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D107BD83290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DvornikovVA_HW_2_10_JSONparsingUITests.swift; sourceTree = "<group>"; };
 		D107BD85290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D1E75D3129030329002A5EA7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D1E75D33290305B9002A5EA7 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				D107BD62290302450002914A /* AppDelegate.swift */,
 				D107BD64290302450002914A /* SceneDelegate.swift */,
-				D107BD66290302450002914A /* ViewController.swift */,
 				D107BD68290302450002914A /* Main.storyboard */,
+				D1E75D33290305B9002A5EA7 /* UserCell.swift */,
+				D1E75D3129030329002A5EA7 /* MainViewController.swift */,
 				D107BD6B290302460002914A /* Assets.xcassets */,
 				D107BD6D290302460002914A /* LaunchScreen.storyboard */,
 				D107BD70290302460002914A /* Info.plist */,
@@ -258,7 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D107BD67290302450002914A /* ViewController.swift in Sources */,
+				D1E75D34290305B9002A5EA7 /* UserCell.swift in Sources */,
+				D1E75D3229030329002A5EA7 /* MainViewController.swift in Sources */,
 				D107BD63290302450002914A /* AppDelegate.swift in Sources */,
 				D107BD65290302450002914A /* SceneDelegate.swift in Sources */,
 			);
