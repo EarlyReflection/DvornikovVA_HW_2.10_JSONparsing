@@ -17,6 +17,7 @@
 		D107BD86290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107BD85290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift */; };
 		D1E75D3229030329002A5EA7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D3129030329002A5EA7 /* MainViewController.swift */; };
 		D1E75D34290305B9002A5EA7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D33290305B9002A5EA7 /* UserCell.swift */; };
+		D1E75D3629033EC1002A5EA7 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D3529033EC1002A5EA7 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D107BD85290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D1E75D3129030329002A5EA7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D1E75D33290305B9002A5EA7 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		D1E75D3529033EC1002A5EA7 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				D107BD62290302450002914A /* AppDelegate.swift */,
 				D107BD64290302450002914A /* SceneDelegate.swift */,
 				D107BD68290302450002914A /* Main.storyboard */,
+				D1E75D3529033EC1002A5EA7 /* ImageViewController.swift */,
 				D1E75D33290305B9002A5EA7 /* UserCell.swift */,
 				D1E75D3129030329002A5EA7 /* MainViewController.swift */,
 				D107BD6B290302460002914A /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			files = (
 				D1E75D34290305B9002A5EA7 /* UserCell.swift in Sources */,
 				D1E75D3229030329002A5EA7 /* MainViewController.swift in Sources */,
+				D1E75D3629033EC1002A5EA7 /* ImageViewController.swift in Sources */,
 				D107BD63290302450002914A /* AppDelegate.swift in Sources */,
 				D107BD65290302450002914A /* SceneDelegate.swift in Sources */,
 			);
