@@ -107,24 +107,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UW9-Xo-VT7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UW9-Xo-VT7">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                             </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="8Un-gB-bOg">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="K3a-S5-boi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="K3a-S5-boi" firstAttribute="bottom" secondItem="8Un-gB-bOg" secondAttribute="bottom" id="5i7-Ou-Tqo"/>
+                            <constraint firstItem="8Un-gB-bOg" firstAttribute="leading" secondItem="K3a-S5-boi" secondAttribute="leading" id="Ar1-BF-PDp"/>
+                            <constraint firstItem="K3a-S5-boi" firstAttribute="trailing" secondItem="8Un-gB-bOg" secondAttribute="trailing" id="CQO-9b-jIL"/>
                             <constraint firstItem="UW9-Xo-VT7" firstAttribute="leading" secondItem="K3a-S5-boi" secondAttribute="leading" id="HuV-Io-IT8"/>
                             <constraint firstItem="K3a-S5-boi" firstAttribute="trailing" secondItem="UW9-Xo-VT7" secondAttribute="trailing" id="kIi-Ic-ofx"/>
                             <constraint firstItem="UW9-Xo-VT7" firstAttribute="top" secondItem="K3a-S5-boi" secondAttribute="top" id="ncu-lI-P6U"/>
                             <constraint firstAttribute="bottom" secondItem="UW9-Xo-VT7" secondAttribute="bottom" id="ulU-01-nHZ"/>
+                            <constraint firstItem="8Un-gB-bOg" firstAttribute="top" secondItem="K3a-S5-boi" secondAttribute="top" id="xc8-QR-MXu"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="UhA-jc-3Eq"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="8Un-gB-bOg" id="iDx-Py-G19"/>
+                        <outlet property="imageView" destination="UW9-Xo-VT7" id="xwe-WO-tPk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GUi-MP-igT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1339" y="-810"/>
+            <point key="canvasLocation" x="1337.68115942029" y="-810.26785714285711"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VJJ-sM-GVp">

@@ -15,6 +15,7 @@
 		D107BD7A290302460002914A /* DvornikovVA_HW_2_10_JSONparsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107BD79290302460002914A /* DvornikovVA_HW_2_10_JSONparsingTests.swift */; };
 		D107BD84290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107BD83290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITests.swift */; };
 		D107BD86290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107BD85290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift */; };
+		D122B13A29042EA4009EE9B7 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = D122B13929042EA4009EE9B7 /* Course.swift */; };
 		D1E75D3229030329002A5EA7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D3129030329002A5EA7 /* MainViewController.swift */; };
 		D1E75D34290305B9002A5EA7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D33290305B9002A5EA7 /* UserCell.swift */; };
 		D1E75D3629033EC1002A5EA7 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D3529033EC1002A5EA7 /* ImageViewController.swift */; };
@@ -50,6 +51,7 @@
 		D107BD7F290302460002914A /* DvornikovVA_HW_2.10_JSONparsingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DvornikovVA_HW_2.10_JSONparsingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D107BD83290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DvornikovVA_HW_2_10_JSONparsingUITests.swift; sourceTree = "<group>"; };
 		D107BD85290302460002914A /* DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DvornikovVA_HW_2_10_JSONparsingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D122B13929042EA4009EE9B7 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		D1E75D3129030329002A5EA7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D1E75D33290305B9002A5EA7 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		D1E75D3529033EC1002A5EA7 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				D107BD62290302450002914A /* AppDelegate.swift */,
 				D107BD64290302450002914A /* SceneDelegate.swift */,
 				D107BD68290302450002914A /* Main.storyboard */,
+				D122B13929042EA4009EE9B7 /* Course.swift */,
 				D1E75D3529033EC1002A5EA7 /* ImageViewController.swift */,
 				D1E75D33290305B9002A5EA7 /* UserCell.swift */,
 				D1E75D3129030329002A5EA7 /* MainViewController.swift */,
@@ -268,6 +271,7 @@
 				D1E75D3229030329002A5EA7 /* MainViewController.swift in Sources */,
 				D1E75D3629033EC1002A5EA7 /* ImageViewController.swift in Sources */,
 				D107BD63290302450002914A /* AppDelegate.swift in Sources */,
+				D122B13A29042EA4009EE9B7 /* Course.swift in Sources */,
 				D107BD65290302450002914A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
